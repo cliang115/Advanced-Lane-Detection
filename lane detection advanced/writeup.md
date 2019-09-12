@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image3]: ./output_images/thresholded_image.png "Binary Example"
 [image4]: ./output_images/warped_image.png "Warp Example"
 [image5]: ./output_images/polynomial_lines.png "Fit Visual"
-[image6]: ./output_images/rewarped_image "Output"
+[image6]: ./output_images/rewarped_image.png "Output"
 [video1]: ./project_video_output.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
