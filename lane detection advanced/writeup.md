@@ -103,8 +103,7 @@ Here is an example of my polynomial lines:
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I used the radius of curvature equation from the course and first converted the coeffients "A" and "B" to meters. I used the average of the left and right lane radius of curvatures.I calculated the position of the vehicle with respect to center by subtracting lane_center which is the middle of the two lane bases and view_center which is the middle of the image. I converted the position of vehicle to meters.
-I did this in the first 11 lines and last five lines of the function "rewarp" in the seventh code cell of the notebook.
+I used the radius of curvature equation from the course and first converted the coeffients "A" and "B" to meters. I used the average of the left and right lane radius of curvatures as the radius of curvature of the lane.I calculated the position of the vehicle with respect to center by subtracting view_center which is the middle of the image from lane_center which is the middle of the two lane bases. Then I converted the position of vehicle to meters. I did this in the first 11 lines and last five lines of the function "rewarp" in the seventh code cell of the notebook.
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
